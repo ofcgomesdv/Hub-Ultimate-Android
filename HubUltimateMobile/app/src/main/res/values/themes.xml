@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hub_bg">#050607</color>
+    <color name="hub_accent">#2BFF88</color>
+
+    <style name="Theme.HubUltimate" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/hub_bg</item>
+        <item name="android:statusBarColor">@color/hub_bg</item>
+        <item name="android:navigationBarColor">@color/hub_bg</item>
+        <item name="android:colorAccent">@color/hub_accent</item>
+    </style>
+</resources>
