@@ -217,7 +217,7 @@ class MonitorOverlayService : Service() {
             background = GradientDrawable().apply {
                 cornerRadius = 10 * dp
                 setColor(0xCC0D1110.toInt())
-                setStroke((1 * dp).toInt(), 0x992BFF88)
+                setStroke((1 * dp).toInt(), 0x992BFF88.toInt())
             }
             text = "Hub · iniciando"
         }
